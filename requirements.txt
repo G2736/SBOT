@@ -7,20 +7,3 @@ webdriver-manager
 questionary
 selenium-stealth
 pywhatkit
-
-
-# --- Updated Banner Function ---
-def display_banner():
-    """Prints a stylized banner for the bot in blue."""
-    banner = """
-######################################################################
-###                                                                ###
-###   #####   #        #####   #####    #####    #####   #####     ###
-###   #       #        #   #     #      #   #    #   #     #       ###
-###   #####   #        #   #     #      ####     #   #     #       ###
-###       #   #        #   #     #      #   #    #   #     #       ###
-###   #####   ######   #####     #      #####    #####     #       ###  
-###                                                                ###
-######################################################################
-"""
-    print(Fore.BLUE + Style.BRIGHT + banner)
