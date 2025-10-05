@@ -1,0 +1,28 @@
+{
+  "settings": {
+    "browser": "Chrome",
+    "headless": true
+  },
+  "stealth_settings": {
+    "min_refresh_seconds": 3,
+    "max_refresh_seconds": 7
+  },
+  "credentials": {
+    "username": "YOUR_REGISTER_NUMBER_HERE",
+    "password": ""
+  },
+  "whatsapp": {
+    "enabled": true,
+    "phone_number": ""
+  },
+  "urls": {
+    "login_page": "https://lms2.ai.saveetha.in/course/view.php?id=302",
+    "schedules": {
+      "1611-Viva (1 hr slot)": "https://lms2.ai.saveetha.in/mod/scheduler/view.php?id=36137",
+      "1731-CIA-1 (2 hr slot)": "https://lms2.ai.saveetha.in/mod/scheduler/view.php?id=43360",
+      "1851-Module (1 hr slot)": "https://lms2.ai.saveetha.in/mod/scheduler/view.php?id=36298",
+      "1852-Reep (2 hr slot)": "https://lms2.ai.saveetha.in/mod/scheduler/view.php?id=37641",
+      "4731-Module (1 hr slot)": "https://lms2.ai.saveetha.in/mod/scheduler/view.php?id=41825"
+    }
+  }
+}

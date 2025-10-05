@@ -1,13 +1,12 @@
-# SBOT
-BOT
+# requirements.txt
 
-
-# Dynamic Time Scraping: Instead of predefined times, the bot could first go to the room's page, scrape all currently available time slots, and present them to you in the questionary menu. This would be the ultimate "what you see is what you get" booking experience.
-
-# Analytics: Log every successful booking to a separate bookings.csv file (Timestamp, Room, Slot Time). Over time, you could analyze this data to see which rooms and times are easiest to get.
-
-# Multi-Account Support: Modify the config.json to accept a list of usernames and passwords. Th
-
+selenium
+schedule
+GPUtil
+webdriver-manager
+questionary
+selenium-stealth
+pywhatkit
 
 
 # --- Updated Banner Function ---
