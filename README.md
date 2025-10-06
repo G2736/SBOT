@@ -151,3 +151,21 @@ Randomized Delays: The bot doesn't refresh at a fixed interval. It waits for a r
 
 Next-Level Evasion: We've also discussed even more advanced techniques you could add later, such as proxy rotation (to change IP addresses) and reverse-engineering the API (to ditch the browser entirely).
 //
+
+It's a completely different architecture, but it's one that can definitely be implemented. It's the most advanced way to build a bot.
+
+Think of it as the difference between driving a car and teleporting.
+
+## Our Current Bot (Selenium Architecture)
+What it is: The bot controls a full, real web browser. It looks at the rendered webpage, finds buttons by their text or ID, and simulates a user's clicks.
+
+Analogy: It's like a robot sitting in a car, looking through the windshield, and physically pressing the pedals and turning the wheel to get to a destination.
+
+Characteristics: It's easier to program because it mimics a human, but it's slower and uses a lot of RAM and CPU because it has to run the entire car (the browser).
+
+## The New Method (Direct HTTP Requests)
+What it is: This method completely ignores the browser. It communicates directly with the website's server by sending raw data packets (HTTP requests), just like the website's own code does in the background.
+
+Analogy: Instead of driving, you're teleporting. You figure out the exact coordinates of the destination and instantly appear there, bypassing the entire journey.
+
+Characteristics: It's lightning-fast (milliseconds) and uses almost no resources, but it requires more initial work to figure out the exact "coordinates" (the API endpoints, headers, and data payloads).
